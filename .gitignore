@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Caches
+.cache/
+.parcel-cache/
+.next/
+.turbo/
+.vite/
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Misc
+*.tmp
+*.temp
+*.swp
+*.orig
