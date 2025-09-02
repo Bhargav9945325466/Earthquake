@@ -1,0 +1,107 @@
+.map-container {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  height: 600px;
+  position: relative;
+}
+
+.map-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 16px 20px;
+  text-align: left;
+}
+
+.map-header h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.map-stats {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.filter-indicator {
+  color: #ffeb3b;
+  font-weight: 500;
+}
+
+.earthquake-map {
+  height: calc(100% - 80px) !important;
+  width: 100% !important;
+}
+
+.earthquake-popup {
+  text-align: left;
+  min-width: 200px;
+}
+
+.earthquake-popup h3 {
+  margin: 0 0 12px 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.earthquake-popup p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+}
+
+.earthquake-popup strong {
+  color: #667eea;
+}
+
+.usgs-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background: #667eea;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.usgs-link:hover {
+  background: #5a6fd8;
+}
+
+.loading, .error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.loading-spinner {
+  color: #667eea;
+}
+
+.error-message {
+  color: #f44336;
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    height: 400px;
+  }
+  
+  .map-header {
+    padding: 12px 16px;
+  }
+  
+  .map-header h3 {
+    font-size: 1.1rem;
+  }
+  
+  .map-stats {
+    font-size: 0.8rem;
+  }
+}
