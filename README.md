@@ -1,5 +1,18 @@
 # 🌍 Earthquake Visualizer
 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07ed0486-0ec1-42c2-b77e-76b8a5c0b10f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/70edd2cc-f317-4c4c-a1ed-5acaa73cbddf" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/20e40ecc-3179-4400-a5fc-23fa59d93857" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c0ebf8f2-7763-44d6-ac64-eeb3636227a5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6898b924-b5b8-4d13-ac05-14a7381c654d" />
+
+
+
+
+
+
+
 A modern web application that visualizes recent earthquake activity around the world using real-time data from the USGS Earthquake API.
 
 ## 🎯 Project Overview
